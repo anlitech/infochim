@@ -63,6 +63,13 @@ p {
 	padding-right: 5vw;
 }
 
+.centered img {
+	display: inline-block;
+	height: 20vh;
+	margin-top: 5vh;
+	margin-left: 5vh;
+}
+
 .para
 {
 	border-left: 6px solid #1a0900;
