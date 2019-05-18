@@ -17,76 +17,46 @@
 	background-color: #f23005;  
 }
 
-table {
-	display: block;
-	margin:10vh;
-	color: #ffdbb3;//ffbe73;
-	width: 80%;
-	position: absolute;
-	table-layout: all;
-}
-table img{	
-	display: block;
-	max-width: 80%;
-	margin-left: 10%;
-}
-td {
-	width: 40%;
-}
-tr, td {
-  padding: 0.5vw;
-  text-align: center;
-  transition: 1s;
-  font-size: 2vw !important;
-}
-
-
-td:hover {
-	height: 40%;
-	width: 60%;
-	background-color: rgba(255, 255, 255, 0.2);
-}
-
 h1 {
 	color: white;
 	font-size: 5vh;
 }
 
 p {
-	text-indent: 5vw;
+	text-indent: 5vh;
 	color: #1a0900;
-	padding: 1vw;
+	padding: 1vh;
 }
 
 .centered {
-	padding: 3.1vw;
-	padding-right: 5vw;
+	padding: 5vh;
+	padding-right: 10vh;
 }
 
-.centered img {
+.block {
 	display: inline-block;
-	height: 20vh;
-	margin-top: 5vh;
-	margin-left: 5vh;
+	text-align: center;
+	margin: 1vh;
+	width: 35vh;
+	transition: 0.5s;
 }
 
-<<<<<<< HEAD
-=======
-.block text{
-	font-size: 250%;
+.block:hover {
+	width: 42vh;
+}
+
+.block img {
+	display: block;
+	max-width: 80%;	
+	margin-left: 10%;
+}
+
+.block text {
+	font-size: 3vh;
 	color: #ffdbb3;
 	margin-top: 10%;
 }
 
-.block:hover {
-	//height: 23vh;
-	width: 42%;
-}
-
-
-
-
->>>>>>> parent of 061f80c... 1234
 .para
 {
 	border-left: 6px solid #1a0900;
@@ -94,5 +64,12 @@ p {
 	background-color: #ffdbb3;
 	height: auto;
 	font-size: 3vh;
+}
+
+#PPrincipala2 .centered{
+	padding-top: 10vh;
+	padding-left: 10vh;
+	padding-right: 0;
+	padding-bottom: 5vh;
 }
 
