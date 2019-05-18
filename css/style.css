@@ -68,6 +68,11 @@ p {
 	height: 20vh;
 	margin-top: 5vh;
 	margin-left: 5vh;
+	transition: 1s;
+}
+
+.centered img:hover {
+	height: 23vh;
 }
 
 .para
