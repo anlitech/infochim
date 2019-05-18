@@ -70,6 +70,23 @@ p {
 	margin-left: 5vh;
 }
 
+<<<<<<< HEAD
+=======
+.block text{
+	font-size: 250%;
+	color: #ffdbb3;
+	margin-top: 10%;
+}
+
+.block:hover {
+	//height: 23vh;
+	width: 42%;
+}
+
+
+
+
+>>>>>>> parent of 061f80c... 1234
 .para
 {
 	border-left: 6px solid #1a0900;
