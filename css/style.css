@@ -75,12 +75,22 @@ p {
 	margin-top: 5vh;
 	margin-left: 5vh;
 	transition: 1s;
+	text-align: center;
+}
+
+.block text{
+	font-size: 250%;
+	color: #ffdbb3;
+	margin-top: 10%;
 }
 
 .block:hover {
 	//height: 23vh;
 	width: 42%;
 }
+
+
+
 
 .para
 {
