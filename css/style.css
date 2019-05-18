@@ -3,7 +3,7 @@
 	width: 50%;
 	position: fixed; 
 	z-index: 1;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 .stanga {
 	left: 0;
@@ -59,8 +59,9 @@ p {
 }
 
 .centered {
-	padding: 3.1vw;
-	padding-right: 5vw;
+	margin: 3.1vw;
+	margin-right: 5vw;
+	border-width: 2px;
 }
 
 .block img {
@@ -79,7 +80,7 @@ p {
 }
 
 .block text{
-	font-size: 250%;
+	font-size: 2vw;
 	color: #ffdbb3;
 	margin-top: 10%;
 }
@@ -88,6 +89,13 @@ p {
 	//height: 23vh;
 	width: 42%;
 }
+
+//#stimg {
+//	margin-left: 5vw;
+//	margin-right: 2.5vw;
+//	border-width: 0.2vw;
+//	border-style: solid;
+//}
 
 
 
