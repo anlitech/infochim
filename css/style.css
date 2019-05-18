@@ -17,44 +17,57 @@
 	background-color: #f23005;  
 }
 
+table {
+	display: block;
+	margin:10vh;
+	color: #ffdbb3;//ffbe73;
+	width: 80%;
+	position: absolute;
+	table-layout: all;
+}
+table img{	
+	display: block;
+	max-width: 80%;
+	margin-left: 10%;
+}
+td {
+	width: 40%;
+}
+tr, td {
+  padding: 0.5vw;
+  text-align: center;
+  transition: 1s;
+  font-size: 2vw !important;
+}
+
+
+td:hover {
+	height: 40%;
+	width: 60%;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
 h1 {
 	color: white;
 	font-size: 5vh;
 }
 
 p {
-	text-indent: 5vh;
+	text-indent: 5vw;
 	color: #1a0900;
-	padding: 1vh;
+	padding: 1vw;
 }
 
 .centered {
-	padding: 5vh;
-	padding-right: 10vh;
+	padding: 3.1vw;
+	padding-right: 5vw;
 }
 
-.block {
+.centered img {
 	display: inline-block;
-	text-align: center;
-	margin: 1vh;
-	width: 35vh;
-	transition: 0.5s;
-}
-
-.block:hover {
-	width: 42vh;
-}
-
-.block img {
-	display: block;
-	max-width: 80%;	
-	margin-left: 10%;
-}
-
-.block text {
-	font-size: 3vh;
-	color: #ffdbb3;
-	margin-top: 10%;
+	height: 20vh;
+	margin-top: 5vh;
+	margin-left: 5vh;
 }
 
 .para
@@ -66,10 +79,19 @@ p {
 	font-size: 3vh;
 }
 
-#PPrincipala2 .centered{
-	padding-top: 10vh;
-	padding-left: 10vh;
-	padding-right: 0;
-	padding-bottom: 5vh;
+::-webkit-scrollbar
+{
+  width: 1vh;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
 }
 
+::-webkit-scrollbar-track
+{
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
