@@ -63,16 +63,23 @@ p {
 	padding-right: 5vw;
 }
 
-.centered img {
+.block img {
+	width: 100% !important;
+	display: block;
+}
+
+.block{
 	display: inline-block;
-	height: 20vh;
+	//height: 20vh;
+	width: 33%;
 	margin-top: 5vh;
 	margin-left: 5vh;
 	transition: 1s;
 }
 
-.centered img:hover {
-	height: 23vh;
+.block:hover {
+	//height: 23vh;
+	width: 42%;
 }
 
 .para
