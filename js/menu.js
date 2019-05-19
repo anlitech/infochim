@@ -73,7 +73,7 @@ document.write('\
 </svg>\
 ');
 var stanga = "Principala1";
-var dreapta = "Principala2"
+var dreapta = "Principala2";
 
 function st(id) {
   document.getElementById(stanga).style.display = "none";
