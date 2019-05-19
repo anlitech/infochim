@@ -41,6 +41,9 @@ p {
 	transition: 0.5s;
 	cursor: pointer;
 }
+#includedContent {
+	z-index: 10000;
+}
 
 .block:hover {
 	width: 42vh;
