@@ -1,4 +1,4 @@
-/*document.write('\
+document.write('\
 \
 <div onmouseover ="f2()" id="meniu">\
     <img src="imagini/icon.png">\
@@ -33,7 +33,7 @@
   <circle id="InnerCircle" cx="500" cy="552" r="95"/>\
  \
 \
-  <path class="selector" id="pistol" \
+  <path class="selector" id="pistol"\
   d="m500.06 453.48c-37.213 1.5613-67.087 18.219-85.64 49.646l-332.15-191.77c87.89-150.59 239.65-238.17 415.43-241.37z"/>\
 \
   <path class="selector" id="heavy" \
@@ -71,16 +71,31 @@
    </text>\
  </g>\
 </svg>\
-');*/
+');
+var stanga = "Principala1";
+var dreapta = "Principala2"
+
+function st(id) {
+  document.getElementById(stanga).style.display = "none";
+  document.getElementById(id).style.display = "block";
+  stanga = id;
+}
+
+function dr(id) {
+  document.getElementById(dreapta).style.display = "none";
+  document.getElementById(id).style.display = "block";
+  dreapta = id;
+}
+
 function f()
 {
 	var b = document.getElementsByClassName("selector");
 
 	for(var i = 0; i < b.length; i++) {
             var anchor = b[i];
-            anchor.onclick = function() {
-                alert('ho ho ho');
-            }
+            anchor.onclick = function(){
+              st('Principala1');
+            };
         }	
     document.getElementById("OuterCircle").addEventListener('mouseleave', f3());
 }

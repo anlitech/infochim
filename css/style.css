@@ -41,9 +41,6 @@ p {
 	transition: 0.5s;
 	cursor: pointer;
 }
-#includedContent {
-	z-index: 10000;
-}
 
 .block:hover {
 	width: 42vh;
@@ -70,11 +67,20 @@ p {
 	font-size: 3vh;
 }
 
-#PPrincipala2 .centered{
-	padding-top: 10vh;
-	padding-left: 10vh;
-	padding-right: 0;
-	padding-bottom: 5vh;
+#Principala1 {
+	display: block;
+}
+
+#Principala2 .centered{
+	padding: 10vh 0 5vh 10vh;
+}
+
+#Marijuana {
+	display: none;
+}
+
+#Cocaina {
+	display: none;
 }
 
 ::-webkit-scrollbar
