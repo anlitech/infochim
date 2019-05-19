@@ -52,22 +52,22 @@ document.write('\
   d="m500.39 651.42c37.213-1.5613 67.087-18.219 85.64-49.646l332.14 191.76c-87.88 150.6-239.65 238.17-415.42 241.37z"/>\
 \
   <text class="menu0" x="290" y="320"> \
-      Intro\
+      Ce sunt drogurile?\
   </text>\
   <text class="menu0" x="560" y="320"> \
-      Știați că?\
+      Tipuri de droguri\
   </text> \
   <text class="menu0" x="700" y="560"> \
-      DESPRE NOI\
+      Traficanți de droguri\
   </text>\
   <text class="menu0" x="140" y="560"> \
-      ISTORIC\
+      Știați că?\
   </text>\
   <text class="menu0" x="570" y="820"> \
-      Droguri\
+      Despre noi\
   </text>\
    <text class="menu0" x="230" y="820"> \
-      Dealeri\
+      Istoric\
    </text>\
  </g>\
 </svg>\
@@ -111,3 +111,5 @@ function f3()
 	document.getElementById("meniu").style.visibility = "visible";
     document.getElementById("weaponmenu").style.visibility = "hidden" ;
 }
+
+
