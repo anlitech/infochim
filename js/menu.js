@@ -94,7 +94,8 @@ function f()
 	for(var i = 0; i < b.length; i++) {
             var anchor = b[i];
             anchor.onclick = function(){
-              st('Principala1');
+              alert(anchor.id);
+              //st('Principala1');
             };
         }	
     document.getElementById("OuterCircle").addEventListener('mouseleave', f3());
