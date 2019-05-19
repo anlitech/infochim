@@ -6,7 +6,10 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/tabel.css">
   <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/tabel.js"></script>
+
 </head>
 
 <body onload="f()">
@@ -36,18 +39,73 @@
         </div>
         <div class="centered">
           <h1>Marijuana</h1>  
-          <div class="para">
-            <p>
-              Se prepară din frunze şi flori uscate de canabis. Majoritatea utilizatorilor rulează marijuana într-o ţigară – „joint”. Mai poate fi fumată în pipe de apă.
-            </p> </div>
-          <div class="para">  
-            <p>
-              <b>Efecte:</b> Apare insomnia, dificultăţi în menţinerea noţiunii timpului, memorie redusă pe termen scurt sau imparţială; reducerea capacităţii de realizare a acţiunilor care cer concentrare şi coordonare, precum şofatul, creşterea ritmului inimii, pericole cardiace potenţiale pentru cei predispuşi la boli de inimă, uscăciune a gurii ţi a gâtului, scăderea inhibiţiilor sociale, paranoia, halucinaţii, memorie pe termen scurt redusă, capacitate de înţelegere redusă, motivaţie şi cunoaştere modificate, îngreunând acumularea de noi informaţii, paranoia, dependenţă psihologică; deficienţe de învăţare şi memorie, percepţie şi dificultăţi de raţionare, vorbire, ascultare efectivă, gândire, asimilare a cunoştintelor şi rezolvare a problemelor; nelinişte intensă şi accese de panică. 
-            </p>
-            <p>
-              Efectele pe termen lung: creşterea riscului de cancer, scăderea nivelului de testosteron şi de spermatozoizi la bărbaţi, creşterea nivelului de testosteron la femei şi a riscului de infertilitate, plăcere sexuală scăzută sau dispariţia ei, dependenţă psihologică.
-            </p>
-          </div>
+
+          <table>
+            <tr class="arata" onclick="arata('definitie')" >
+              <td><text>Definitie</text></td>
+            </tr>
+
+            <tr id="definitie" class="ascunde">
+              <td> 
+                  <p>
+                    Se prepară din frunze şi flori uscate de canabis. Majoritatea utilizatorilor rulează marijuana într-o ţigară – „joint”. Mai poate fi fumată în pipe de apă.
+                  </p> 
+              </td>
+            </tr>
+
+            <tr class="arata" onclick="arata('mari_stiaica')">
+              <td><text>Știai că?</text></td>
+            </tr>
+
+            <tr id="mari_stiaica" class="ascunde">
+              <td>
+                <ul>
+                  <li>
+                     Semintele de cannabis au fost utilizate pentru prima oara ca sursa de mancare, de catre chinezi, in urma cu circa 8.000 de ani.
+                  </li>
+                  <li>
+                    Numele de “marijuana” vine din limba spaniola, fiind un argou mexican pentru cannabis. Se crede ca acesta este un derivat din pronuntarea spaniola a numelor Mary si Jane. Aceste doua nume erau doua argouri utilizate de armata mexicana pentru a desemna prostituatele si bordelurile.
+                  </li>
+                  <li>
+                    Nici un om nu a murit vreodata din cauza consumului de marijuana. Ar fi nevoie de aproximativ 800 de jointuri consecutive pentru a ucide o persoana, insa cauza mortii nu ar fi drogul in sine, ci cantitatea de dioxid de carbon inhalata. Prin comparatie, tutunul ucide in fiecare an in jur de 440.000 de oameni.
+                  </li>
+                  <li>
+                    Oamenii care consuma marijuana sunt mai putin predispusi la alterarea tesutului cerebral, in comparatie cu cei care consuma alcool.
+                  </li>
+                  <li>
+                    Marijuana s-a dovedit a fi un bun ajutor in medicina. Pacientii care sufera de cancer sau de SIDA consuma marijuana, aceasta atenuand starile de greata si durere. De asemenea marijuana este benefica si pentru cei cu afectiuni neurologice sau pentru cei cu glaucom.
+                  </li>
+                  <li>
+                    In jurul anului 1619, cand SUA era inca formata din 13 colonii, s-a dat o lege ce-i obliga pe fermieri sa creasca marijuana. Aceasta era folosita pentru confectionarea de sfori, haine si panze. De asemenea, cultivarea marijuanei la acea vreme era considerata un act de patriotism.
+                  </li>
+                  <li>
+                    Ultimii patru presedinti americani, inclusiv Brack Obama, au recunoscut ca au consumat marijuana.
+                  </li>
+                  <li>
+                    9% din consumatorii de marijuana devin dependenti permanent.
+                  </li>
+                  <li>
+                    22. Intre 1850 si 1942, in SUA, marijuana se gasea in farmacii ca medicament anti greata sau anti reumatism.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr class="arata" onclick="arata('efecte')">
+              <td><text>Efecte</text></td>
+            </tr>
+
+            <tr id="efecte" class="ascunde">
+              <td>
+                <p>
+                  Apare insomnia, dificultăţi în menţinerea noţiunii timpului, memorie redusă pe termen scurt sau imparţială; reducerea capacităţii de realizare a acţiunilor care cer concentrare şi coordonare, precum şofatul, creşterea ritmului inimii, pericole cardiace potenţiale pentru cei predispuşi la boli de inimă, uscăciune a gurii ţi a gâtului, scăderea inhibiţiilor sociale, paranoia, halucinaţii, memorie pe termen scurt redusă, capacitate de înţelegere redusă, motivaţie şi cunoaştere modificate, îngreunând acumularea de noi informaţii, paranoia, dependenţă psihologică; deficienţe de învăţare şi memorie, percepţie şi dificultăţi de raţionare, vorbire, ascultare efectivă, gândire, asimilare a cunoştintelor şi rezolvare a problemelor; nelinişte intensă şi accese de panică. 
+                </p>
+                <p>
+                  Efectele pe termen lung: creşterea riscului de cancer, scăderea nivelului de testosteron şi de spermatozoizi la bărbaţi, creşterea nivelului de testosteron la femei şi a riscului de infertilitate, plăcere sexuală scăzută sau dispariţia ei, dependenţă psihologică.
+                </p>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
 
@@ -64,6 +122,7 @@
               Cocaina este un alcaloid tropanic cristalin, care se obține prin extragerea chimică din frunzele de coca, cu ajutorul unui solvent precum petrolul sau kerosenul. Este un stupefiant cu efect stimulant puternic al sistemului nervos central, fiind unul dintre cele mai răspândite droguri care produc dependența consumatorului.
             </p> 
           </div>
+          <img src="imagini/cocaina_formula.png">
           <div class="para">  
             <p>
               <b>Efecte:</b> Extazul (care durează 15-30 minute) este urmat de o depresie profundă, irascibilitate, agitaţie, oboseală mentală şi o dorinţă uriaşă pentru următoarea doză. 
@@ -77,6 +136,8 @@
           </div>
         </div>
       </div>
+
+
 
     </div>
   
