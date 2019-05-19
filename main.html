@@ -107,9 +107,9 @@
 
             
             <div class="content" style="max-width:800px">
-              <img class="mySlides1" src="imagini/cocaina1.jpg" style="width:100%">
-              <img class="mySlides1" src="imagini/heroina1.jpg" style="width:100%">
-              <img class="mySlides1" src="imagini/marijuana1.jpg" style="width:100%">
+              <img class="mySlides1" src="imagini/marijuana/marijuana1.jpg" style="width:100%">
+              <img class="mySlides1" src="imagini/marijuana/marijuana2.jpg" style="width:100%">
+              <img class="mySlides1" src="imagini/marijuana/marijuana3.jpg" style="width:100%">
 
               <button class="butonrosu" onclick="plusDivs(-1)">❮ Prev</button>
               <button class="butonrosu" onclick="plusDivs(1)">Next ❯</button>
@@ -118,27 +118,79 @@
             <script type="text/javascript" src="js/slider.js"></script>
         </div>
       </div>
-
       <div id="Cocaina">
         <div class="centered">
-          <h1>Cocaina (Crack, coke, C, zăpadă, fulg, piatră)</h1> 
-          <div class="para">
-            <p>
-              Cocaina este un alcaloid tropanic cristalin, care se obține prin extragerea chimică din frunzele de coca, cu ajutorul unui solvent precum petrolul sau kerosenul. Este un stupefiant cu efect stimulant puternic al sistemului nervos central, fiind unul dintre cele mai răspândite droguri care produc dependența consumatorului.
-            </p> 
-          </div>
-          <img src="imagini/cocaina_formula.png">
-          <div class="para">  
-            <p>
-              <b>Efecte:</b> Extazul (care durează 15-30 minute) este urmat de o depresie profundă, irascibilitate, agitaţie, oboseală mentală şi o dorinţă uriaşă pentru următoarea doză. 
-            </p>
-            <p>
-              Efecte pe termen scurt: dilatarea pupilelor, mucozităţi, energie în exces, euforie, siguranţă de sine, lipsa poftei de mâncare, creşterea temperaturii corpului, a ritmului cardiac şi a presiunii arteriale, epilepsie, anxietate, amnezii, acte de violenţă, instabilitate, panică, senzaţie de persecuţie, paranoia; imediat dupa doză: dureri de cap de circa o oră, tremurături, senzaţie de cald/rece; câteva zile de depresie.
-            </p>
-            <p>
-              Efecte pe termen lung: hepatita A, B sau C, paranoia, infarct cerebral sau miocardic, dureri abdominale, comportament agresiv, halucinaţii (care pot provoca acte de automutilare, suicid, omor), dependenţă psihică.
-            </p>
-          </div>
+          <h1>Cocaina (Crack, coke, C, zăpadă, fulg, piatră)</h1>  
+
+          <table>
+            <tr class="arata" onclick="arata('definitie_Cocaina')" >
+              <td><text>Definitie</text></td>
+            </tr>
+
+            <tr id="definitie_Cocaina" class="ascunde">
+              <td> 
+                  <p>
+                    Cocaina este un alcaloid tropanic cristalin, care se obține prin extragerea chimică din frunzele de coca, cu ajutorul unui solvent precum petrolul sau kerosenul. Este un stupefiant cu efect stimulant puternic al sistemului nervos central, fiind unul dintre cele mai răspândite droguri care produc dependența consumatorului.
+                  </p> 
+              </td>
+            </tr>
+
+            <tr class="arata" onclick="arata('coca_stiaica')">
+              <td><text>Știai că?</text></td>
+            </tr>
+
+            <tr id="coca_stiaica" class="ascunde">
+              <td>
+                <ul>
+                  <li>
+                    Frunzele de coca, după ce sunt puse la uscat mai multe zile pe suprafețe pardosite, sunt amestecate cu kerosen și carbonat de calciu, sodiu sau potasiu, după care, timp de o noapte, sunt călcate cu picioarele. 
+                  </li>
+                  <li>
+                    Cocaina, care este un eter, se transformă în carbonat de cocaină, care se dizolvă în kerosen. Soluția este filtrată și se elimină reziduurile, după care se amestecă cu acid sulfuric. Se obține sulfatul de cocaină sau pasta de bază care se precipită și se depune pe fundul vasului. 
+                  </li>
+                  <li>
+                     Odată prelucrată, această pastă este pusă la uscat înainte de a fi purificată, pentru eliminarea kerosenului și a altor impurități reziduale. Pentru aceasta se adaugă din nou acid sulfuric și permanganat de potasiu.
+                  </li>
+                  <li>
+                    După filtrare, produsul se amestecă cu amoniac, înainte de a fi iarăși filtrat și uscat. Din pasta purificată obținută, cocaina este izolată prin adăugare de acetonă sau eter etilic, pentru distilarea sulfatului de cocaină. 
+                  </li>
+                  <li>
+                    În etapa finală, se adaugă acid clorhidric și alcool care duc la formarea unui precipitat de clorhidrat de cocaină. Aceasta se cristalizează în timp, luând forma finală în care se comercializează.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr class="arata" onclick="arata('efecte_cocaina')">
+              <td><text>Efecte</text></td>
+            </tr>
+
+            <tr id="efecte_cocaina" class="ascunde">
+              <td>
+                <p>
+                  <b>Efecte:</b> Extazul (care durează 15-30 minute) este urmat de o depresie profundă, irascibilitate, agitaţie, oboseală mentală şi o dorinţă uriaşă pentru următoarea doză. 
+                </p>
+                <p>
+                  <b>Efecte pe termen scurt:</b> dilatarea pupilelor, mucozităţi, energie în exces, euforie, siguranţă de sine, lipsa poftei de mâncare, creşterea temperaturii corpului, a ritmului cardiac şi a presiunii arteriale, epilepsie, anxietate, amnezii, acte de violenţă, instabilitate, panică, senzaţie de persecuţie, paranoia; imediat dupa doză: dureri de cap de circa o oră, tremurături, senzaţie de cald/rece; câteva zile de depresie.
+                </p>
+                <p>
+                  <<b>Efecte pe termen lung:</b> hepatita A, B sau C, paranoia, infarct cerebral sau miocardic, dureri abdominale, comportament agresiv, halucinaţii (care pot provoca acte de automutilare, suicid, omor), dependenţă psihică.
+                </p>
+              </td>
+            </tr>
+          </table>
+
+            
+            <div class="content" style="max-width:800px">
+              <img class="mySlides5" src="imagini/cocaina/coca1.jpg" style="width:100%">
+              <img class="mySlides5" src="imagini/cocaina/coca2.jpg" style="width:100%">
+              <img class="mySlides5" src="imagini/cocaina/coca3.jpg" style="width:100%">
+
+              <button class="butonrosu" onclick="plusDivs(-1)">❮ Prev</button>
+              <button class="butonrosu" onclick="plusDivs(1)">Next ❯</button>
+            </div>
+                         
+            <script type="text/javascript" src="js/slider5.js"></script>
         </div>
       </div>
 
@@ -399,7 +451,9 @@
 
             <tr id="formula_heroina" class="ascunde">
               <td>
-                <p><a href="https://commons.wikimedia.org/wiki/File:Heroine3D.gif#/media/File:Heroine3D.gif"><img alt="Heroine3D.gif" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Heroine3D.gif"></a><br>De la <a title="w:nl:User:MorbidFlorist" class="extiw" href="https://en.wikipedia.org/wiki/nl:User:MorbidFlorist">MorbidFlorist</a> at <a title="w:nl:" class="extiw" href="https://en.wikipedia.org/wiki/nl:">neerlandeză Wikipedia</a>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6083198">Link</a></p>
+                <p><img alt="Heroine3D.gif" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Heroine3D.gif">
+                  <img src="imagini/heroina/formula_hero.svg">
+                </p>
               </td>
           </table>
 
