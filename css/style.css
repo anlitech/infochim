@@ -83,6 +83,10 @@ p {
 	display: none;
 }
 
+#mdma {
+	display: none;
+}
+
 ::-webkit-scrollbar
 {
   width: 1vh;  /* for vertical scrollbars */
