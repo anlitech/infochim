@@ -1,9 +1,10 @@
 table {
 	width: 100%;
-	background-color: #ffcf99;
+	background-color: #ff1a1a;
 	height: auto;
 	font-size: 3vh;
 	border-collapse: collapse;
+	color: #ffe6e6;
 }
 
 .formula {
@@ -20,11 +21,11 @@ ul, li {
 }
 
 tr {
-	border: 0.1vh solid #cc6d00;
+	border: 0.1vh solid #ffe6e6;
 }
 
 .arata td {
-	//border-left: 0.3vh solid #1a0900;
+	//border-left: 0.3vh solid #ffe6e6;
 	padding-left: 1vh;
 	height: 5vh;
 }
@@ -36,5 +37,5 @@ tr {
 
 .ascunde {
 	display: none;
-	background-color: #ffdbb3;
+	background-color: #ffe6e6;
 }
