@@ -1,0 +1,108 @@
+.j {
+	height: 100%;
+	width: 50%;
+	position: fixed; 
+	z-index: 1;
+	overflow-x: hidden;
+}
+.stanga {
+	left: 0;
+	top: 0;
+	//background-color: #f23005;
+}
+
+.dreapta {
+	right: 0;
+	top: 0;
+	//background-color: #f23005;  
+}
+
+#Principala1 ul, li {
+	list-style-type: none !important;
+}
+
+h1 {
+	//text-align: center;
+	color: white;
+	font-size: 5vh;
+}
+
+p {
+	text-indent: 5vh;
+	color: #660000;
+	padding: 1vh;
+}
+
+.centered {
+	padding: 5vh;
+	padding-right: 10vh;
+}
+
+.block {
+	display: inline-block;
+	text-align: center;
+	margin: 1vh;
+	width: 35vh;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.block:hover {
+	width: 42vh;
+}
+
+.block img {
+	display: block;
+	max-width: 80%;	
+	margin-left: 10%;
+	border-radius: 1%;
+	box-shadow: 0 0 3vh #660000;
+}
+
+.block text {
+	font-size: 3vh;
+	color: #ffdbb3;
+	margin-top: 10%;
+}
+
+.para
+{
+	border-left: 6px solid #990000;
+	width: 100%;
+	background-color: #ffe6e6;
+	height: auto;
+	border-radius: 2%;
+	font-size: 3vh; 
+	box-shadow: 1vh 1vh 1vh #990000;
+	color: #990000 !important;
+}
+
+#Principala1 {
+	display: block;
+}
+
+#Principala2 .centered{
+	padding: 10vh 0 5vh 10vh;
+}
+
+#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet {
+	display: none;
+}
+
+
+::-webkit-scrollbar
+{
+  width: 1vh;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}

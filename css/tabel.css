@@ -1,0 +1,41 @@
+table {
+	width: 100%;
+	background-color: #ff1a1a;
+	height: auto;
+	font-size: 3vh;
+	border-collapse: collapse;
+	color: #ffe6e6;
+}
+
+.formula {
+	width: 80% ;
+}
+
+tr, td {
+	width: 100%;
+}
+
+ul, li {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+tr {
+	border: 0.1vh solid #ffe6e6;
+}
+
+.arata td {
+	//border-left: 0.3vh solid #ffe6e6;
+	padding-left: 1vh;
+	height: 5vh;
+}
+.arata td:hover {
+	transition: 0.4s;
+	padding-left: 3vh;
+	font-style: italic;
+}
+
+.ascunde {
+	display: none;
+	background-color: #ffe6e6;
+}
