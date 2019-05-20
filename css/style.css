@@ -15,8 +15,8 @@
 	top: 0; 
 }
 
-#Principala1 ul, li {
-	list-style-type: none !important;
+#Principala1 li {
+	list-style-type: none;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
 
 p {
 	text-indent: 5vh;
-	color: #660000;
+	//color: black !important;
 	padding: 1vh;
 }
 
@@ -81,14 +81,14 @@ p {
 	padding: 10vh 0 5vh 10vh;
 }
 
-#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet, #suntemaltfel{
+#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet, #suntemaltfel, #traficanti{
 	display: none;
 }
 
 
 ::-webkit-scrollbar
 {
-  width: 1vh;  /* for vertical scrollbars */
+  width: 0.5vh;  /* for vertical scrollbars */
   height: 12px; /* for horizontal scrollbars */
 }
 

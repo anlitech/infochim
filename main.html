@@ -11,6 +11,9 @@
   <link rel="stylesheet" type="text/css" href="css/slider.css">
   <link rel="stylesheet" type="text/css" href="css/stopdrog.css">
   <link rel="stylesheet" type="text/css" href="css/autoslide.css">
+  <link rel="stylesheet" type="text/css" href="css/traficanti.css">
+
+
 
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   <script> 
@@ -130,7 +133,7 @@
             </tr>
 
             <tr class="arata" onclick="arata('mari_stiaica')">
-              <td><text>Știai că?</text></td>
+              <td><text>Știați că?</text></td>
             </tr>
 
             <tr id="mari_stiaica" class="ascunde">
@@ -665,9 +668,11 @@
 
     <div id="suntemaltfel">
       <div class="centered">
+        <h1>Noi alegem altceva</h1>
+
            <table>
                     <tr class="arata" onclick="arata('activitati_sportive')" >
-                      <td><text>Activitati sportive</text></td>
+                      <td><text>Activități sportive</text></td>
                     </tr>
 
                     <tr id="activitati_sportive" class="ascunde">
@@ -709,7 +714,7 @@
 
           <table>
             <tr class="arata" onclick="arata('activitati_cultural_artistice')" >
-              <td><text>Activitati cultural artistice</text></td>
+              <td><text>Activități cultural artistice</text></td>
             </tr>
 
             <tr id="activitati_cultural_artistice" class="ascunde">
@@ -751,7 +756,7 @@
 
           <table>
             <tr class="arata" onclick="arata('activitati_de_voluntariat')" >
-              <td><text>Activitatide voluntariat</text></td>
+              <td><text>Activități de voluntariat</text></td>
             </tr>
 
             <tr id="activitati_de_voluntariat" class="ascunde">
@@ -794,8 +799,35 @@
             </tr>
           </table>                   
         
-        </div> 
+      </div> 
+    </div>
+
+    <div id="traficanti">
+      <div class="centered">
+        <div class="block1">
+          <img src="imagini/cocaina1.jpg">
+          <text>Grîu Cătălin</text>
+        </div>
+        <div class="block1">
+          <img src="imagini/cocaina1.jpg">
+          <text>Doina Andrei</text>
+        </div>
+        <div class="block1">
+          <img src="imagini/cocaina1.jpg">
+          <text>Gușă Miruna</text>
+        </div>
+
       </div>
+    </div>
+
+    <div id="stiatica">
+      <div class="centered">
+        <h1>Știați că?</h1>
+        <div class="para">
+          
+        </div>
+      </div>
+    </div>
 
   </div>
 
@@ -839,16 +871,16 @@
       <path class="selector" id="heavy" onclick="dr('Principala2')" 
       d="m585.74 502.79c-19.96-31.45-49.32-48.99-85.81-49.34v-383.53c174.36 0.81581 326.08 88.46 416.74 239.08z"/>
 
-      <path class="selector" id="smg" 
+      <path class="selector" id="smg" onclick="dr('stiatica')" 
       d="m414.42 503.12c-17.254 33.008-17.766 67.208 0.17517 98.989l-332.15 191.77c-86.474-151.41-86.436-326.63-1.32-480.45z"/>
 
       <path class="selector" id="rifles" onclick="dr('suntemaltfel')" 
       d="m586.03 601.77c17.26-33.008 17.77-67.208-0.17-98.989l332.14-191.76c86.47 151.41 86.44 326.63 1.32 480.45z"/>
 
-      <path class="selector" id="equipment" 
+      <path class="selector" id="equipment"  
       d="m414.59 602.11c19.959 31.447 49.321 48.989 85.815 49.343v383.53c-174.35-0.8-326.08-88.48-416.74-239.1z"/>
 
-      <path class="selector" id="grenades"
+      <path class="selector" id="grenades" onclick="dr('traficanti')"
       d="m500.39 651.42c37.213-1.5613 67.087-18.219 85.64-49.646l332.14 191.76c-87.88 150.6-239.65 238.17-415.42 241.37z"/>
 
       <text class="menu0" x="290" y="320"> 

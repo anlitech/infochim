@@ -1,19 +1,23 @@
 table {
 	width: 100%;
-	//background-color: #ff1a1a;
 	height: auto;
 	font-size: 3vh;
 	border-collapse: collapse;
-	color: #ffe6e6;
-
+	vertical-align: middle;
 }
 
 #suntemaltfel table {
 	margin-top: 5vh;
 }
 
+#suntemaltfel table td {
+	padding: 1vh 0 1vh 2vh;
+}
+
 #suntemaltfel table img {
 	margin-top: 2vh;
+	box-shadow: 0 0 2vh black;
+	border-radius: 2%;
 }
 
 #suntemaltfel .ascunde {
@@ -25,30 +29,33 @@ table {
 }
 
 tr, td {
+	padding: 1vh 0 1vh 2vh;
 	width: 100%;
 }
 
-ul, li {
+li {
 	list-style-type: circle;
-	list-style-position: inside;
 }
 
 
 
 .arata td {
 	border: 0.1vh solid #ffe6e6;
-	//border-left: 0.3vh solid #ffe6e6;
+	border-left: 0.3vh solid #ffe6e6;
 	background-color: #ff1a1a;
 	padding-left: 1vh;
 	height: 5vh;
+	color: #ffe6e6;
 }
 .arata td:hover {
 	transition: 0.4s;
 	padding-left: 3vh;
 	font-style: italic;
+	cursor: pointer;
 }
 
 .ascunde {
 	display: none;
 	background-color: #ffe6e6;
+	color: #660000;
 }
