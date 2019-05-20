@@ -1,3 +1,7 @@
+body {
+	background-color: black;
+}
+
 .titlu {
 	font-size: 4vh !important;
 	color: white;
@@ -5,4 +9,29 @@
 
 #stopdrog table {
 	margin-top: 5vh;
+}
+
+.activitate {
+	height: 10vh;
+	margin-left: 10%;
+	background-color: white;
+	color: black;
+	margin-top: 3vh;
+	font-size: 3vh;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 0.7vh;
+	border: 0.2vh solid red;
+	box-shadow: 0 0 2vh white;
+	cursor: pointer;
+	width: 80%;
+	transition: 0.5s;
+}
+
+.activitate:hover {
+	font-size: 3.5vh;
+	transition: 0.5s;
+	height: 12vh;
+	margin-left: 5%;
+	width: 90%;
 }
