@@ -8,13 +8,11 @@
 .stanga {
 	left: 0;
 	top: 0;
-	//background-color: #f23005;
 }
 
 .dreapta {
 	right: 0;
-	top: 0;
-	//background-color: #f23005;  
+	top: 0; 
 }
 
 #Principala1 ul, li {
@@ -75,10 +73,8 @@ p {
 	font-size: 3vh; 
 	box-shadow: 1vh 1vh 1vh #990000;
 	color: #990000 !important;
-}
-
-#Principala1 {
-	display: block;
+	margin: 3vh 0 3vh 0;
+	padding: 2vh 2vh 2vh 2vh;
 }
 
 #Principala2 .centered{
