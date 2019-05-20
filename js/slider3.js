@@ -9,7 +9,7 @@ function showDivs3(n) {
   var i;
   var x1 = document.getElementsByClassName("mySlides3");
   if (n > x1.length) {slideIndex3 = 1}    
-  if (n < 1) {slideIndex = x1.length}
+  if (n < 1) {slideIndex3 = x1.length}
   for (i = 0; i < x1.length; i++) {
     x1[i].style.display = "none";  
   }
