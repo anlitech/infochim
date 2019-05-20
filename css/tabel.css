@@ -12,6 +12,10 @@ table {
 	margin-top: 5vh;
 }
 
+#suntemaltfel table img {
+	margin-top: 2vh;
+}
+
 #suntemaltfel .ascunde {
 	background-color: rgba(0,0,0,0);
 }
