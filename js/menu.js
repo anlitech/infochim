@@ -1,5 +1,11 @@
 var stanga = "Principala1";
 var dreapta = "Principala2";
+r();
+
+function r() {
+  document.getElementById("Principala11").style.setProperty("fill", "rgba(255,255,255,0.2)", "important");
+}
+
 
 function st(id) {
   document.getElementById(stanga).style.display = "none";

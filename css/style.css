@@ -65,13 +65,13 @@ p {
 
 .para
 {
-	border-left: 6px solid #990000;
+	//border-left: 6px solid #990000;
 	width: 100%;
 	background-color: #ffe6e6;
 	height: auto;
-	border-radius: 2%;
+	border-radius: 1%;
 	font-size: 3vh; 
-	box-shadow: 1vh 1vh 1vh #990000;
+	box-shadow: 0 0  1vh #990000;
 	color: #990000 !important;
 	margin: 3vh 0 3vh 0;
 	padding: 2vh 2vh 2vh 2vh;
@@ -81,7 +81,7 @@ p {
 	padding: 10vh 0 5vh 10vh;
 }
 
-#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet, #suntemaltfel, #traficanti{
+#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet, #suntemaltfel, #traficanti, #stiatica{
 	display: none;
 }
 

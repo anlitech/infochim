@@ -38,6 +38,7 @@ body {
 }
 
 .selector:hover {
+  fill:rgba(255,255,255,0.2) !important;
   stroke-width:15px !important;
   cursor: pointer !important;
 }
@@ -82,11 +83,11 @@ svg text {
  fill:rgba(0,0,0,0);
 }
 
-#pistol {
+#Principala11 {
   stroke:url(#lp);
 }
 
-#heavy {
+#Principala21 {
   stroke:url(#lh);
 }
 
