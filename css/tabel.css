@@ -1,10 +1,19 @@
 table {
 	width: 100%;
-	background-color: #ff1a1a;
+	//background-color: #ff1a1a;
 	height: auto;
 	font-size: 3vh;
 	border-collapse: collapse;
 	color: #ffe6e6;
+
+}
+
+#suntemaltfel table {
+	margin-top: 5vh;
+}
+
+#suntemaltfel .ascunde {
+	background-color: rgba(0,0,0,0);
 }
 
 .formula {
@@ -20,12 +29,12 @@ ul, li {
 	list-style-position: inside;
 }
 
-tr {
-	border: 0.1vh solid #ffe6e6;
-}
+
 
 .arata td {
+	border: 0.1vh solid #ffe6e6;
 	//border-left: 0.3vh solid #ffe6e6;
+	background-color: #ff1a1a;
 	padding-left: 1vh;
 	height: 5vh;
 }
