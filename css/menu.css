@@ -1,6 +1,5 @@
 body {
-  background-color: #3498db; //#f2ec9d;
-  //fill: #3498db !important;
+  background-color: #3498db;
 }
 #meniu {
   background: #ffad99;//ffaa00;//  `#e6b800;
@@ -34,13 +33,13 @@ body {
 
 .selector {
   z-index:1000;
-  fill:rgba(0,0,0,0) !important;
+  fill:rgba(0,0,0,0);
 }
 
 .selector:hover {
   fill:rgba(255,255,255,0.2) !important;
-  stroke-width:15px !important;
-  cursor: pointer !important;
+  stroke-width:15px ;
+  cursor: pointer ;
 }
 
 svg {
@@ -73,7 +72,7 @@ svg text {
   //fill: #ffbe73;//b36800;
   stroke: white;
   stroke-width: 5;
-  z-index: 10000 !important;
+  z-index: 10000 ;
   opacity: 1;
 }
 
@@ -91,18 +90,18 @@ svg text {
   stroke:url(#lh);
 }
 
-#smg {
+#prevenire11 {
   stroke:url(#ls);
 }
 
-#rifles {
-  stroke:url(#lr);
+#suntemaltfel1 {
+  stroke:url(#lr)
 }
 
-#equipment {
+#stiatica1 {
   stroke:url(#le);
 }
 
-#grenades {
+#traficanti1 {
   stroke:url(#lg);
 }
