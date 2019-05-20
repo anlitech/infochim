@@ -4,7 +4,7 @@
 	margin-top: 5vh;
 	padding: 3% 0 2% 6%;
 	display: block;
-	border: 0.3vh solid white;
+	border: 0.3vh solid #ffcf99;
 }
 
 .content img {
@@ -19,10 +19,10 @@
 .butonrosu {
 	display: inline-block;
 	margin: 2% 1% 0 14% ;
-	background-color: #ff1a1a;
+	background-color: #ffcf99;
 	font-size: 2vh;
 	border-width: 0;
-	color: #ffe6e6;
+	color: black;
 	padding: 1% 6% 1% 6%;
 	transition: 0.3s;
 }

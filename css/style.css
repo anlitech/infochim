@@ -29,7 +29,11 @@ h1 {
 
 p {
 	text-indent: 5vh;
+<<<<<<< HEAD
 	color: #ffe6e6;
+=======
+	color: #1a0900;
+>>>>>>> parent of baf786f... www
 	padding: 1vh;
 }
 
@@ -55,8 +59,6 @@ p {
 	display: block;
 	max-width: 80%;	
 	margin-left: 10%;
-	border-radius: 1%;
-	box-shadow: 0 0 3vh #660000;
 }
 
 .block text {
@@ -67,14 +69,23 @@ p {
 
 .para
 {
-	border-left: 6px solid #990000;
+	border-left: 6px solid #b30000;
 	width: 100%;
+<<<<<<< HEAD
 	background-color: #ff1a1a;
 	height: auto;
 	border-radius: 2%;
 	font-size: 3vh; 
 	box-shadow: 1vh 1vh 1vh #990000;
 	color: #ffe6e6 !important;
+=======
+	background-color: #ffdbb3;
+	height: auto;
+	border-radius: 2%;
+	font-size: 3vh;
+	box-shadow: 1vh 1vh 1vh #b30000;
+	color: #990000 !important;
+>>>>>>> parent of baf786f... www
 }
 
 #Principala1 {
