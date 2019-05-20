@@ -17,7 +17,12 @@
 	background-color: #f23005;  
 }
 
+#Principala1 ul, li {
+	list-style-type: none !important;
+}
+
 h1 {
+	//text-align: center;
 	color: white;
 	font-size: 5vh;
 }
@@ -60,11 +65,14 @@ p {
 
 .para
 {
-	border-left: 6px solid #1a0900;
+	border-left: 6px solid #b30000;
 	width: 100%;
 	background-color: #ffdbb3;
 	height: auto;
+	border-radius: 2%;
 	font-size: 3vh;
+	box-shadow: 1vh 1vh 1vh #b30000;
+	color: #990000 !important;
 }
 
 #Principala1 {
