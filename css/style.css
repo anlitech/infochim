@@ -29,7 +29,7 @@ h1 {
 
 p {
 	text-indent: 5vh;
-	color: #660000;
+	color: #ffe6e6;
 	padding: 1vh;
 }
 
@@ -69,12 +69,12 @@ p {
 {
 	border-left: 6px solid #990000;
 	width: 100%;
-	background-color: #ffe6e6;
+	background-color: #ff1a1a;
 	height: auto;
 	border-radius: 2%;
 	font-size: 3vh; 
 	box-shadow: 1vh 1vh 1vh #990000;
-	color: #990000 !important;
+	color: #ffe6e6 !important;
 }
 
 #Principala1 {
