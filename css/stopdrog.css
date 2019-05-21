@@ -4,6 +4,8 @@ body {
 
 .titlu {
 	font-size: 4vh !important;
+	font-weight: 1000;
+	text-shadow: 0 0 0.5vh black;
 	color: white;
 }
 
@@ -14,15 +16,16 @@ body {
 .activitate {
 	height: 10vh;
 	margin-left: 10%;
-	background-color: white;
-	color: black;
+	background-color: #ffe6e6;
+	color: #990000;
 	margin-top: 3vh;
 	font-size: 3vh;
+	font-weight: 1000;
 	text-align: center;
 	padding-top: 20px;
 	border-radius: 0.7vh;
 	border: 0.2vh solid red;
-	box-shadow: 0 0 2vh white;
+	box-shadow: 0 0 2vh #990000;
 	cursor: pointer;
 	width: 80%;
 	transition: 0.5s;

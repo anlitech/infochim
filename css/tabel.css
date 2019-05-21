@@ -1,4 +1,5 @@
 table {
+	margin-top: 2vh;
 	width: 100%;
 	height: auto;
 	font-size: 3vh;
@@ -20,6 +21,12 @@ table {
 	border-radius: 2%;
 }
 
+.formula_cocaina table img{
+	margin-top: 2vh;
+	box-shadow: 0 0 2vh block;
+	border-radius: 2%;
+}
+
 #suntemaltfel .ascunde {
 	background-color: rgba(0,0,0,0);
 }
@@ -34,6 +41,7 @@ tr, td {
 }
 
 li {
+	margin-top: 1vh;
 	list-style-type: circle;
 }
 

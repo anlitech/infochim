@@ -2,7 +2,7 @@ body {
   background-color: #3498db;
 }
 #meniu {
-  background: #ffad99;//ffaa00;//  `#e6b800;
+  background: #ffcccc;//ffaa00;//  `#e6b800;
   height: 5vw;
   width: 5vw;
   position: absolute;
@@ -63,7 +63,7 @@ svg path {
 svg text {
   fill-opacity:1;
   pointer-events:none;
-  font-size: 40px;
+  font-size: 50px;
   fill: white;
 }
 
@@ -90,7 +90,7 @@ svg text {
   stroke:url(#lh);
 }
 
-#prevenire11 {
+#stopdrog1 {
   stroke:url(#ls);
 }
 

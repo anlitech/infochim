@@ -3,11 +3,14 @@ var dreapta = "Principala2";
 
 function r()
 {
+
   x = document.getElementsByClassName("selector");
   for(var i = 0; i<x.length; i++)
     x[i].style.fill= "rgba(255,255,255,0)";
-  document.getElementById(stanga+"1").style.fill = "rgba(255,255,255,0.15)";
-  document.getElementById(dreapta+"1").style.fill = "rgba(255,255,255,0.15)";
+  if(stanga == "Principala1" || stanga =="stopdrog" || stanga == "stiatica")
+    document.getElementById(stanga+"1").style.fill = "rgba(255,255,255,0.15)";
+  if(dreapta == "Principala2" || dreapta =="traficanti" || dreapta == "suntemaltfel")
+    document.getElementById(dreapta+"1").style.fill = "rgba(255,255,255,0.15)";
 }
 
 function st(id) {
