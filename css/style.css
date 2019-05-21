@@ -48,7 +48,11 @@ p {
 }
 
 .dreapta .centered {
-	padding: 6vw 0vh 0 6vw;
+	padding: 6vw 4vh 0 4vw;
+}
+
+.ac .centered {
+	padding-top: 5vh;
 }
 
 .block {
@@ -80,7 +84,7 @@ p {
 
 .para
 {
-		width: 100%;
+	width: 100%;
 	background-color: white;// #ffe6e6;
 	height: auto;
 	border-radius: 1%;
@@ -91,8 +95,12 @@ p {
 	padding: 2vh 2vh 2vh 2vh;
 }
 
-#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet, #suntemaltfel, #traficanti, #stiatica, #stopdrog{
-	display: none;
+.ac .para {
+	margin-top: 0 !important;
+}
+
+#Marijuana, #Cocaina, #mdma, #lsd, #hero, #amfet, #suntemaltfel, #traficanti, #stiatica, #stopdrog, #activitatea1 {
+display: none;
 }
 
 
@@ -146,5 +154,4 @@ span {
 	text-align: center;
 	background-color: #cc0000;
 	height: 8vh;
-	//border-right: 1px solid white;
 }
