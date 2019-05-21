@@ -10,9 +10,11 @@ img {
 }
 
 .slideshow-container {
-  max-width: 1000px;
+  width: 80%;
+  margin-left: 10%;
   position: relative;
   margin: auto;
+  margin-bottom: 5vh;
 }
 
 .dot {
