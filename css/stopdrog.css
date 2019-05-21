@@ -7,6 +7,7 @@ body {
 	font-weight: 1000;
 	text-shadow: 0 0 0.5vh black;
 	color: white;
+	margin-bottom: 13vh;
 }
 
 #stopdrog table {
@@ -14,27 +15,28 @@ body {
 }
 
 .activitate {
-	height: 10vh;
-	margin-left: 10%;
-	background-color: #ffe6e6;
+	height: 12vh;
+	margin-left: 5%;
+	background-color: white;
 	color: #990000;
-	margin-top: 3vh;
+	margin-bottom: 4vh;
 	font-size: 3vh;
 	font-weight: 1000;
 	text-align: center;
-	padding-top: 20px;
 	border-radius: 0.7vh;
 	border: 0.2vh solid red;
 	box-shadow: 0 0 2vh #990000;
 	cursor: pointer;
-	width: 80%;
+	width: 90%;
 	transition: 0.5s;
+	padding: 3vh 1vh 1vh 1vh;
 }
 
 .activitate:hover {
-	font-size: 3.5vh;
+	padding-top: 4vh;
+	font-size: 3.3vh;
 	transition: 0.5s;
-	height: 12vh;
-	margin-left: 5%;
-	width: 90%;
+	height: 14vh;
+	margin-left: 2.5%;
+	width: 95%;
 }

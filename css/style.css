@@ -9,6 +9,7 @@
 .stanga {
 	left: 0;
 	top: 0;
+	border-right: 0.5px solid black;
 }
 
 .dreapta {
@@ -34,12 +35,16 @@ p {
 	padding: 10vh 10vh 0 5vh;
 }
 
-#Principala1 .centered {
+#Principala1 .centered, #stiatica .centered {
 	padding-top: 3vh;
 }
 
 #suntemaltfel .centered {
 	padding: 4vw 3vw 0vw 2vw;
+}
+
+#stopdrog .centered {
+	padding-top: 5vh;
 }
 
 .dreapta .centered {
@@ -108,10 +113,6 @@ p {
   background: rgba(0, 0, 0, 0.5);
 }
 
-#suntemaltfel{
-	padding-left: 5vh !important;
-}
-
 b {
 	font-weight: bold !important;
 }
@@ -136,4 +137,14 @@ b {
 
 span {
 	 background-color: #ffcccc;
+}
+.tit {
+	box-shadow: 0 0 2vh #ff6666;
+	width: 100%;
+	margin: 10vh 0 0 0;
+	padding-top: 1.6vh;
+	text-align: center;
+	background-color: #cc0000;
+	height: 8vh;
+	//border-right: 1px solid white;
 }
