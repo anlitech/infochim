@@ -212,9 +212,18 @@ body {
 
 }
 
+iframe {
+	margin-top: 5vh !important;
+	margin-left: 8.5vh !important;
+	width: 80%;
+	height: 37vh;
+}
+
 #stiatica .para, .ac .para, #traficanti .para{
 	padding: 2vh 2vh 2vh 5vh !important;
 }
+
+
 
 /* stanga si dreapta*/
 .j {
@@ -376,9 +385,8 @@ span {
 }
 
 a {
-	font-style: none;
-	margin-left: 10vh !important;
-	color: white;
-	margin-top: 10vh !important;
+	display: block;
+	margin: 5vh 0 10vh 10vh!important;
+	color: white;	
 	font-size: 3vh !important;
 }
