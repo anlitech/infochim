@@ -152,22 +152,30 @@ body {
 }
 /* traficanti */
 .block1 {
-	display: block;
+	display: inline-block;
 	text-align: center;
-	margin: 3vh 0 0 30%;
-	width: 35vh;
+	margin: 0vh 0 0 0%;
+	width: 13vw;
 	transition: 0.5s;
 	cursor: pointer;
 }
 
+//#miruna {
+//	margin-left: 8vw;
+//	display: block;
+//}
+
 .block1:hover {
-	width: 42vh;
+	width: 15vw;
 }
 
 .block1 img {
 	display: block;
 	max-width: 80%;	
 	margin-left: 10%;
+	border-radius: 2%;
+	border: 2px solid #cc0000 !important;
+	box-shadow: 0 0 1vh black;
 }
 
 .block1 text {
@@ -177,14 +185,23 @@ body {
 	margin-top: 5%;
 }
 
-#stiatica li, .ac li{
+.email {
+	font-size: 1.6vh !important;
+}
+
+#traficanti h1 {
+	margin-top: 5vh !important;
+}
+
+#stiatica li, .ac li, #traficanti li{
 	margin-top: 2vh;
+	//margin-left: 1vh;
 	list-style: none !important;
 	border-radius: 2%;
 	background-color: #ffcccc;
 }
 
-#stiatica li::before, .ac li::before{
+#stiatica li::before, .ac li::before, #traficanti li::before{
 	content: "\2022"; 
   	color: red; 
   	font-weight: bold;
@@ -195,8 +212,8 @@ body {
 
 }
 
-#stiatica .para, .ac .para{
-	padding: 1vh 2vh 2vh 5vh !important;
+#stiatica .para, .ac .para, #traficanti .para{
+	padding: 2vh 2vh 2vh 5vh !important;
 }
 
 /* stanga si dreapta*/
